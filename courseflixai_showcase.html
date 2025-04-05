@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseFlixAI - Discover Your Learning Path</title>
+    <link rel="stylesheet" href="courseflixai_styles.css">
+    <style>
+        body {
+            background-color: var(--courseflix-dark);
+            color: var(--courseflix-white);
+            font-family: var(--secondary-font);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-4);
+        }
+        
+        .brand-showcase {
+            padding-top: 80px;
+        }
+        
+        .section {
+            margin-bottom: var(--space-16);
+        }
+        
+        .section-title {
+            font-family: var(--primary-font);
+            font-weight: var(--font-bold);
+            font-size: var(--text-3xl);
+            margin-bottom: var(--space-6);
+            color: var(--courseflix-white);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: var(--space-4);
+        }
+        
+        .color-palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: var(--space-4);
+        }
+        
+        .color-item {
+            border-radius: var(--radius-lg);
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: var(--space-4);
+            color: var(--courseflix-white);
+            font-family: var(--primary-font);
+            font-weight: var(--font-medium);
+        }
+        
+        .color-name {
+            font-size: var(--text-sm);
+            margin-bottom: var(--space-1);
+        }
+        
+        .color-hex {
+            font-family: var(--code-font);
+            font-size: var(--text-xs);
+            opacity: 0.8;
+        }
+        
+        .typography-showcase {
+            display: grid;
+            gap: var(--space-8);
+        }
+        
+        .font-family {
+            margin-bottom: var(--space-6);
+        }
+        
+        .font-title {
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-4);
+            font-weight: var(--font-bold);
+        }
+        
+        .font-sample {
+            margin-bottom: var(--space-2);
+        }
+        
+        .font-details {
+            font-family: var(--code-font);
+            font-size: var(--text-xs);
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .component-showcase {
+            display: grid;
+            gap: var(--space-8);
+        }
+        
+        .component-group {
+            margin-bottom: var(--space-8);
+        }
+        
+        .component-title {
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-4);
+            font-weight: var(--font-bold);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: var(--space-4);
+            flex-wrap: wrap;
+        }
+        
+        .card-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: var(--space-4);
+        }
+        
+        .logo-showcase {
+            display: flex;
+            justify-content: center;
+            margin-bottom: var(--space-12);
+        }
+        
+        .logo-container {
+            text-align: center;
+        }
+        
+        .logo-image {
+            width: 200px;
+            height: 200px;
+            margin-bottom: var(--space-4);
+        }
+        
+        .logo-c {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 15px solid var(--courseflix-red);
+            border-right: 15px solid transparent;
+            transform: rotate(-45deg);
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        
+        .logo-play {
+            position: absolute;
+            top: 50%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 70px solid var(--courseflix-red);
+        }
+        
+        .logo-circuit {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            opacity: 0.3;
+            background: 
+                radial-gradient(circle at 30% 30%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 70% 70%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 40% 80%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 80% 40%, var(--knowledge-blue) 2px, transparent 2px);
+            background-size: 30px 30px;
+        }
+        
+        .tagline {
+            font-family: var(--primary-font);
+            font-size: var(--text-2xl);
+            font-weight: var(--font-light);
+            text-align: center;
+            margin-bottom: var(--space-12);
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container brand-showcase">
+        <div class="logo-showcase">
+            <div class="logo-container">
+                <div class="logo-image">
+                    <div class="logo-c">
+                        <div class="logo-play"></div>
+                        <div class="logo-circuit"></div>
+                    </div>
+                </div>
+                <div class="logo-text">
+                    <span>Course</span><span class="flix">Flix</span><span class="ai">AI</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tagline">
+            Discover Your Learning Path
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Color Palette</h2>
+            <div class="color-palette">
+                <div class="color-item" style="background-color: var(--courseflix-red);">
+                    <div class="color-name">CourseFlixAI Red</div>
+                    <div class="color-hex">#E50914</div>
+                </div>
+                <div class="color-item" style="background-color: var(--courseflix-dark);">
+                    <div class="color-name">CourseFlixAI Dark</div>
+                    <div class="color-hex">#141414</div>
+                </div>
+                <div class="color-item" style="background-color: var(--courseflix-white); color: var(--courseflix-dark);">
+                    <div class="color-name">CourseFlixAI White</div>
+                    <div class="color-hex">#FFFFFF</div>
+                </div>
+                <div class="color-item" style="background-color: var(--knowledge-blue);">
+                    <div class="color-name">Knowledge Blue</div>
+                    <div class="color-hex">#0071EB</div>
+                </div>
+                <div class="color-item" style="background-color: var(--success-green);">
+                    <div class="color-name">Success Green</div>
+                    <div class="color-hex">#2ECC71</div>
+                </div>
+                <div class="color-item" style="background-color: var(--focus-purple);">
+                    <div class="color-name">Focus Purple</div>
+                    <div class="color-hex">#8E44AD</div>
+                </div>
+                <div class="color-item" style="background-color: var(--creative-orange);">
+                    <div class="color-name">Creative Orange</div>
+                    <div class="color-hex">#FF8C00</div>
+                </div>
+                <div class="color-item" style="background-color: var(--data-teal);">
+                    <div class="color-name">Data Teal</div>
+                    <div class="color-hex">#00CED1</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Typography</h2>
+            <div class="typography-showcase">
+                <div class="font-family">
+                    <div class="font-title">Primary Font: Montserrat</div>
+                    <div class="font-sample" style="font-family: var(--primary-font); font-weight: var(--font-bold); font-size: var(--text-4xl);">
+                        Course<span style="color: var(--courseflix-red);">Flix</span><span style="color: var(--knowledge-blue);">AI</span>
+                    </div>
+                    <div class="font-sample" style="font-family: var(--primary-font); font-weight: var(--font-bold); font-size: var(--text-2xl);">
+                        Heading 1: Bold and Impactful
+                    </div>
+                    <div class="font-sample" style="font-family: var(--primary-font); font-weight: var(--font-medium); font-size: var(--text-xl);">
+                        Heading 2: Medium Weight for Clarity
+                    </div>
+                    <div class="font-details">
+                        Used for headings, navigation, and UI elements
+                    </div>
+                </div>
+                
+                <div class="font-family">
+                    <div class="font-title">Secondary Font: Open Sans</div>
+                    <div class="font-sample" style="font-family: var(--secondary-font); font-weight: var(--font-light); font-size: var(--text-xl);">
+                        Light weight for elegant introductions
+                    </div>
+                    <div class="font-sample" style="font-family: var(--secondary-font); font-weight: var(--font-regular); font-size: var(--text-base);">
+                        Regular weight for body text and descriptions. This font provides excellent readability for longer content blocks and course descriptions.
+                    </div>
+                    <div class="font-sample" style="font-family: var(--secondary-font); font-weight: var(--font-semibold); font-size: var(--text-base);">
+                        Semi-bold weight for emphasis within paragraphs
+                    </div>
+                    <div class="font-details">
+                        Used for body text, course descriptions, and longer content
+                    </div>
+                </div>
+                
+                <div class="font-family">
+                    <div class="font-title">Code Font: Fira Code</div>
+                    <div class="font-sample" style="font-family: var(--code-font); font-size: var(--text-base);">
+                        function learnCoding() {<br>
+                        &nbsp;&nbsp;return "Programming is fun!";<br>
+                        }
+                    </div>
+                    <div class="font-details">
+                        Used for code examples in programming courses
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">UI Components</h2>
+            <div class="component-showcase">
+                <div class="component-group">
+                    <div class="component-title">Buttons</div>
+                    <div class="button-group">
+                        <button class="btn btn-primary">Start Learning</button>
+                        <button class="btn btn-secondary">Explore Courses</button>
+                        <button class="btn btn-ghost">Add to My List</button>
+                    </div>
+                </div>
+                
+                <div class="component-group">
+                    <div class="component-title">Course Cards</div>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/300x169/?coding" alt="Course" class="card-image">
+                            <div class="card-content">
+                                <div class="card-title">Python for Data Science</div>
+                                <div class="card-description">Learn Python programming for data analysis and visualization</div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="https://source.unsplash.com/random/300x169/?design" alt="Course" class="card-image">
+                            <div class="card-content">
+                                <div class="card-title">UI/UX Design Fundamentals</div>
+                                <div class="card-description">Master the principles of user interface and experience design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="component-group">
+                    <div class="component-title">Chat Interface</div>
+                    <div class="chat-panel" style="position: relative; z-index: 1;">
+                        <div class="chat-header">
+                            <div class="chat-title">Course Advisor</div>
+                            <div>✕</div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="message message-ai">
+                                Hi there! I'm Flex, your personal learning assistant. What would you like to learn today?
+                            </div>
+                            <div class="message message-user">
+                                I'm interested in machine learning
+                            </div>
+                            <div class="message message-ai">
+                                Great choice! Are you a beginner or do you have some experience with programming and statistics?
+                            </div>
+                        </div>
+                        <div class="chat-input">
+                            <input type="text" placeholder="Type your message...">
+                            <button>➤</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

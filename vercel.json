@@ -1,0 +1,66 @@
+# CourseFlixAI Deployment Configuration
+
+# Vercel deployment configuration for the frontend
+module.exports = {
+  // Build settings
+  build: {
+    env: {
+      NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://api.courseflix.ai',
+      NEXT_PUBLIC_ENABLE_ANALYTICS: process.env.NEXT_PUBLIC_ENABLE_ANALYTICS || 'true',
+      NEXT_PUBLIC_PROTOTYPE_MODE: process.env.NEXT_PUBLIC_PROTOTYPE_MODE || 'true'
+    }
+  },
+  
+  // Project settings
+  projectSettings: {
+    framework: 'nextjs',
+    buildCommand: 'npm run build',
+    outputDirectory: '.next',
+    installCommand: 'npm install',
+    devCommand: 'npm run dev'
+  },
+  
+  // Routing configuration
+  routes: [
+    // Redirect root to home page
+    { source: '/', destination: '/home', permanent: true },
+    
+    // API routes
+    { source: '/api/:path*', destination: '/api/:path*' },
+    
+    // Static assets
+    { source: '/static/:path*', destination: '/static/:path*' },
+    
+    // Fallback route
+    { source: '/:path*', destination: '/:path*' }
+  ],
+  
+  // Headers configuration
+  headers: [
+    {
+      source: '/(.*)',
+      headers: [
+        {
+          key: 'X-Content-Type-Options',
+          value: 'nosniff'
+        },
+        {
+          key: 'X-Frame-Options',
+          value: 'DENY'
+        },
+        {
+          key: 'X-XSS-Protection',
+          value: '1; mode=block'
+        }
+      ]
+    }
+  ],
+  
+  // Environment variables
+  env: {
+    MONGODB_URI: process.env.MONGODB_URI,
+    JWT_SECRET: process.env.JWT_SECRET,
+    API_KEY: process.env.API_KEY,
+    NODE_ENV: process.env.NODE_ENV || 'development'
+  }
+}

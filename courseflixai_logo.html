@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseFlixAI Logo Design</title>
+    <style>
+        :root {
+            --courseflix-red: #E50914;
+            --courseflix-dark: #141414;
+            --courseflix-white: #FFFFFF;
+            --knowledge-blue: #0071EB;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--courseflix-dark);
+            color: var(--courseflix-white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+        
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        
+        .logo {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        
+        .logo-c {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 15px solid var(--courseflix-red);
+            border-right: 15px solid transparent;
+            transform: rotate(-45deg);
+            box-sizing: border-box;
+        }
+        
+        .logo-play {
+            position: absolute;
+            top: 50%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 70px solid var(--courseflix-red);
+        }
+        
+        .logo-circuit {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            opacity: 0.3;
+            background: 
+                radial-gradient(circle at 30% 30%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 70% 70%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 40% 80%, var(--knowledge-blue) 2px, transparent 2px),
+                radial-gradient(circle at 80% 40%, var(--knowledge-blue) 2px, transparent 2px);
+            background-size: 30px 30px;
+        }
+        
+        .logo-text {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .logo-text span.ai {
+            color: var(--knowledge-blue);
+        }
+        
+        .logo-text span.flix {
+            color: var(--courseflix-red);
+        }
+        
+        .variations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .variation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .variation-title {
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .horizontal-logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .horizontal-logo .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 0;
+        }
+        
+        .icon-only {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .color-variations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .color-variation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .dark-bg {
+            background-color: var(--courseflix-dark);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .light-bg {
+            background-color: var(--courseflix-white);
+            padding: 20px;
+            border-radius: 10px;
+            color: var(--courseflix-dark);
+        }
+        
+        .light-bg .logo-text {
+            color: var(--courseflix-dark);
+        }
+        
+        .blue-accent .logo-c {
+            border-color: var(--knowledge-blue);
+            border-right-color: transparent;
+        }
+        
+        .blue-accent .logo-play {
+            border-left-color: var(--knowledge-blue);
+        }
+        
+        .blue-accent .logo-text span.flix {
+            color: var(--knowledge-blue);
+        }
+    </style>
+</head>
+<body>
+    <h1>CourseFlixAI Logo Design</h1>
+    
+    <div class="logo-container">
+        <div class="logo">
+            <div class="logo-c"></div>
+            <div class="logo-play"></div>
+            <div class="logo-circuit"></div>
+        </div>
+        <div class="logo-text">Course<span class="flix">Flix</span><span class="ai">AI</span></div>
+    </div>
+    
+    <h2>Logo Variations</h2>
+    
+    <div class="variations">
+        <div class="variation">
+            <div class="variation-title">Horizontal Layout</div>
+            <div class="horizontal-logo">
+                <div class="logo">
+                    <div class="logo-c"></div>
+                    <div class="logo-play"></div>
+                    <div class="logo-circuit"></div>
+                </div>
+                <div class="logo-text">Course<span class="flix">Flix</span><span class="ai">AI</span></div>
+            </div>
+        </div>
+        
+        <div class="variation">
+            <div class="variation-title">Icon Only</div>
+            <div class="logo icon-only">
+                <div class="logo-c"></div>
+                <div class="logo-play"></div>
+                <div class="logo-circuit"></div>
+            </div>
+        </div>
+        
+        <div class="variation">
+            <div class="variation-title">Wordmark Only</div>
+            <div class="logo-text">Course<span class="flix">Flix</span><span class="ai">AI</span></div>
+        </div>
+    </div>
+    
+    <h2>Color Variations</h2>
+    
+    <div class="color-variations">
+        <div class="color-variation">
+            <div class="variation-title">Primary (Red Accent)</div>
+            <div class="dark-bg">
+                <div class="logo">
+                    <div class="logo-c"></div>
+                    <div class="logo-play"></div>
+                    <div class="logo-circuit"></div>
+                </div>
+                <div class="logo-text">Course<span class="flix">Flix</span><span class="ai">AI</span></div>
+            </div>
+        </div>
+        
+        <div class="color-variation">
+            <div class="variation-title">Secondary (Blue Accent)</div>
+            <div class="dark-bg">
+                <div class="logo blue-accent">
+                    <div class="logo-c"></div>
+                    <div class="logo-play"></div>
+                    <div class="logo-circuit"></div>
+                </div>
+                <div class="logo-text">Course<span class="flix blue-accent">Flix</span><span class="ai">AI</span></div>
+            </div>
+        </div>
+        
+        <div class="color-variation">
+            <div class="variation-title">Light Background</div>
+            <div class="light-bg">
+                <div class="logo">
+                    <div class="logo-c"></div>
+                    <div class="logo-play"></div>
+                    <div class="logo-circuit"></div>
+                </div>
+                <div class="logo-text">Course<span class="flix">Flix</span><span class="ai">AI</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

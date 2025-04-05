@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CourseFlixAI - Prototype Icon Generator</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Montserrat', -apple-system, sans-serif;
+      background-color: #141414;
+      color: #ffffff;
+    }
+    .icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .icon {
+      background-color: #141414;
+      border-radius: 20%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .icon-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .logo-text {
+      font-weight: bold;
+      color: #E50914;
+      text-align: center;
+      line-height: 1;
+    }
+    .logo-ai {
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 0.5em;
+      margin-top: -0.2em;
+      text-align: right;
+      align-self: flex-end;
+    }
+    .play-button {
+      width: 30%;
+      height: 30%;
+      background-color: #E50914;
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      margin-bottom: 10px;
+    }
+    .circuit-lines {
+      position: absolute;
+      width: 70%;
+      height: 70%;
+      border: 2px solid rgba(229, 9, 20, 0.3);
+      border-radius: 10px;
+    }
+    .circuit-dot {
+      position: absolute;
+      width: 8%;
+      height: 8%;
+      background-color: #E50914;
+      border-radius: 50%;
+    }
+    .dot1 { top: 20%; left: 20%; }
+    .dot2 { top: 20%; right: 20%; }
+    .dot3 { bottom: 20%; left: 20%; }
+    .dot4 { bottom: 20%; right: 20%; }
+    
+    .download-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .download-link {
+      background-color: #E50914;
+      color: white;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="icon-container">
+    <div class="icon" id="icon-512" style="width: 512px; height: 512px;">
+      <div class="icon-content">
+        <div class="circuit-lines"></div>
+        <div class="circuit-dot dot1"></div>
+        <div class="circuit-dot dot2"></div>
+        <div class="circuit-dot dot3"></div>
+        <div class="circuit-dot dot4"></div>
+        <div class="play-button"></div>
+        <div class="logo-text" style="font-size: 80px;">CourseFlixAI</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="icon-container">
+    <div class="icon" id="icon-192" style="width: 192px; height: 192px;">
+      <div class="icon-content">
+        <div class="circuit-lines"></div>
+        <div class="circuit-dot dot1"></div>
+        <div class="circuit-dot dot2"></div>
+        <div class="circuit-dot dot3"></div>
+        <div class="circuit-dot dot4"></div>
+        <div class="play-button"></div>
+        <div class="logo-text" style="font-size: 30px;">CourseFlixAI</div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Function to capture the icons as images
+    function captureIcons() {
+      // This would normally use html2canvas or similar library
+      // For this prototype, we're just demonstrating the concept
+      console.log('Icons would be captured and saved here in a real implementation');
+    }
+    
+    // In a real implementation, we would call captureIcons() and save the results
+    // to the appropriate files in the icons directory
+  </script>
+</body>
+</html>
