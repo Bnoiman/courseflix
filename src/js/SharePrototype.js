@@ -2,7 +2,7 @@
 import React, { useState, useRef } from 'react';
 import QRCode from 'qrcode.react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import prototypeConfig from '../../prototype.config';
+import prototypeConfig from './prototype.config';
 
 /**
  * SharePrototype component for CourseFlixAI

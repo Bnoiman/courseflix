@@ -1,6 +1,6 @@
 // CourseFlixAI - Prototype Feedback Component
 import React, { useState } from 'react';
-import prototypeConfig from '../../prototype.config';
+import prototypeConfig from './prototype.config';
 
 /**
  * FeedbackForm component for CourseFlixAI

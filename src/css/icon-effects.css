@@ -1,0 +1,85 @@
+/* CourseFlixAI - Icon Hover Effects */
+
+/* Navigation menu hover effects */
+.nav-item:hover, 
+nav a:hover, 
+header a:hover {
+  color: #e50914 !important;
+  transition: color 0.3s ease;
+}
+
+/* Button hover effects */
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Course card hover effects */
+.course-card:hover,
+.course-item:hover,
+img[alt*="Course"]:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  z-index: 1;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* See All link hover effects */
+a[href*="all"]:hover,
+.see-all:hover {
+  color: #e50914 !important;
+  text-decoration: underline !important;
+  transition: all 0.3s ease;
+}
+
+/* Header icon hover effects */
+.search-icon:hover,
+.profile-icon:hover,
+header svg:hover,
+header i:hover,
+header img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* Add cursor pointer to all interactive elements */
+button, 
+a, 
+.clickable, 
+[role="button"],
+img[alt*="Course"],
+.course-card,
+.course-item {
+  cursor: pointer;
+}
+
+/* Active state for navigation items */
+.nav-item.active,
+nav a.active,
+header a.active {
+  color: #e50914 !important;
+  font-weight: bold;
+}
+
+/* Focus states for accessibility */
+button:focus,
+a:focus,
+[role="button"]:focus {
+  outline: 2px solid #e50914;
+  outline-offset: 2px;
+}
+
+/* Disabled state for buttons */
+button:disabled,
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Added to My List button state */
+.in-my-list {
+  background-color: #1f1f1f !important;
+  border-color: #1f1f1f !important;
+}
