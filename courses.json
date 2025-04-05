@@ -1,0 +1,200 @@
+{
+  "courses": [
+    {
+      "id": "ml-az",
+      "title": "Machine Learning A-Z™: AI, Python & R",
+      "provider": "Udemy",
+      "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+      "image": "images/courses/machine-learning-az.jpg",
+      "rating": 4.5,
+      "ratingCount": 150000,
+      "level": "Intermediate",
+      "duration": "44 hours",
+      "topics": ["Machine Learning", "Python", "R", "AI"]
+    },
+    {
+      "id": "python-crash",
+      "title": "Python Crash Course",
+      "provider": "Coursera",
+      "description": "Learn Python programming fundamentals in this comprehensive crash course for beginners.",
+      "image": "images/courses/python-crash.jpg",
+      "rating": 4.7,
+      "ratingCount": 85000,
+      "level": "Beginner",
+      "duration": "20 hours",
+      "topics": ["Python", "Programming", "Computer Science"]
+    },
+    {
+      "id": "web-dev-bootcamp",
+      "title": "The Complete Web Development Bootcamp",
+      "provider": "Udemy",
+      "description": "Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!",
+      "image": "images/courses/web-dev-bootcamp.jpg",
+      "rating": 4.8,
+      "ratingCount": 125000,
+      "level": "Beginner",
+      "duration": "55 hours",
+      "topics": ["Web Development", "JavaScript", "HTML", "CSS", "React", "Node.js"]
+    },
+    {
+      "id": "full-stack-web",
+      "title": "Full Stack Web Development",
+      "provider": "edX",
+      "description": "Learn front-end and back-end web development with modern technologies and frameworks.",
+      "image": "images/courses/full-stack-web.jpg",
+      "rating": 4.7,
+      "ratingCount": 45000,
+      "level": "Intermediate",
+      "duration": "36 hours",
+      "topics": ["Web Development", "JavaScript", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "id": "data-science-masters",
+      "title": "Data Science Masters Program",
+      "provider": "Simplilearn",
+      "description": "Comprehensive program covering statistics, machine learning, deep learning, and big data technologies.",
+      "image": "images/courses/data-science-masters.jpg",
+      "rating": 4.6,
+      "ratingCount": 32000,
+      "level": "Advanced",
+      "duration": "120 hours",
+      "topics": ["Data Science", "Machine Learning", "Python", "Big Data", "Statistics"]
+    },
+    {
+      "id": "django-web-dev",
+      "title": "Django Web Development",
+      "provider": "Udemy",
+      "description": "Learn how to build web applications with the Django framework and Python.",
+      "image": "images/courses/django-web-dev.jpg",
+      "rating": 4.5,
+      "ratingCount": 28000,
+      "level": "Intermediate",
+      "duration": "30 hours",
+      "topics": ["Python", "Django", "Web Development", "Backend"]
+    },
+    {
+      "id": "flask-web-dev",
+      "title": "Flask Web Development",
+      "provider": "Coursera",
+      "description": "Build web applications with Python and the Flask micro-framework.",
+      "image": "images/courses/flask-web-dev.jpg",
+      "rating": 4.4,
+      "ratingCount": 18000,
+      "level": "Intermediate",
+      "duration": "25 hours",
+      "topics": ["Python", "Flask", "Web Development", "Backend"]
+    },
+    {
+      "id": "python-data-science",
+      "title": "Python for Data Science",
+      "provider": "edX",
+      "description": "Learn how to use Python for data analysis, visualization, and machine learning.",
+      "image": "images/courses/python-data-science.jpg",
+      "rating": 4.7,
+      "ratingCount": 42000,
+      "level": "Intermediate",
+      "duration": "40 hours",
+      "topics": ["Python", "Data Science", "Data Analysis", "Visualization"]
+    },
+    {
+      "id": "ai-fundamentals",
+      "title": "AI Fundamentals",
+      "provider": "Microsoft",
+      "description": "Learn the fundamentals of artificial intelligence and how to apply AI technologies.",
+      "image": "images/courses/ai-fundamentals.jpg",
+      "rating": 4.6,
+      "ratingCount": 35000,
+      "level": "Beginner",
+      "duration": "15 hours",
+      "topics": ["AI", "Machine Learning", "Deep Learning", "Neural Networks"]
+    },
+    {
+      "id": "react-complete-guide",
+      "title": "React - The Complete Guide",
+      "provider": "Udemy",
+      "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and more!",
+      "image": "images/courses/react-complete-guide.jpg",
+      "rating": 4.8,
+      "ratingCount": 110000,
+      "level": "Intermediate",
+      "duration": "48 hours",
+      "topics": ["React", "JavaScript", "Web Development", "Frontend"]
+    },
+    {
+      "id": "blockchain-basics",
+      "title": "Blockchain Basics",
+      "provider": "Coursera",
+      "description": "Learn the fundamentals of blockchain technology and its applications.",
+      "image": "images/courses/blockchain-basics.jpg",
+      "rating": 4.5,
+      "ratingCount": 25000,
+      "level": "Beginner",
+      "duration": "18 hours",
+      "topics": ["Blockchain", "Cryptocurrency", "Smart Contracts", "Decentralization"]
+    },
+    {
+      "id": "flutter-mobile-dev",
+      "title": "Flutter Mobile Development",
+      "provider": "Udemy",
+      "description": "Build beautiful native apps for iOS and Android from a single codebase with Flutter.",
+      "image": "images/courses/flutter-mobile-dev.jpg",
+      "rating": 4.7,
+      "ratingCount": 38000,
+      "level": "Intermediate",
+      "duration": "32 hours",
+      "topics": ["Flutter", "Dart", "Mobile Development", "iOS", "Android"]
+    },
+    {
+      "id": "cs-fundamentals",
+      "title": "Computer Science Fundamentals",
+      "provider": "edX",
+      "description": "Learn the essential concepts of computer science: algorithms, data structures, and computational thinking.",
+      "image": "images/courses/cs-fundamentals.jpg",
+      "rating": 4.6,
+      "ratingCount": 30000,
+      "level": "Beginner",
+      "duration": "40 hours",
+      "topics": ["Computer Science", "Algorithms", "Data Structures", "Programming"]
+    },
+    {
+      "id": "advanced-react-patterns",
+      "title": "Advanced React Patterns",
+      "provider": "Frontend Masters",
+      "description": "Learn advanced React patterns and techniques for building scalable and maintainable applications.",
+      "image": "images/courses/advanced-react-patterns.jpg",
+      "rating": 4.9,
+      "ratingCount": 12000,
+      "level": "Advanced",
+      "duration": "12 hours",
+      "topics": ["React", "JavaScript", "Design Patterns", "Frontend"]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design for Developers",
+      "provider": "Educative",
+      "description": "Learn how to design scalable systems and prepare for system design interviews.",
+      "image": "images/courses/system-design.jpg",
+      "rating": 4.8,
+      "ratingCount": 15000,
+      "level": "Advanced",
+      "duration": "25 hours",
+      "topics": ["System Design", "Architecture", "Scalability", "Distributed Systems"]
+    }
+  ],
+  "categories": [
+    {"id": "programming", "name": "Programming", "count": 450},
+    {"id": "data-science", "name": "Data Science", "count": 320},
+    {"id": "web-dev", "name": "Web Development", "count": 380},
+    {"id": "ai", "name": "Artificial Intelligence", "count": 220},
+    {"id": "mobile-dev", "name": "Mobile Development", "count": 180},
+    {"id": "cloud", "name": "Cloud Computing", "count": 150},
+    {"id": "devops", "name": "DevOps", "count": 120},
+    {"id": "cybersecurity", "name": "Cybersecurity", "count": 200}
+  ],
+  "recommendations": {
+    "continue_learning": ["python-crash", "web-dev-bootcamp", "react-complete-guide", "ml-az"],
+    "top_picks": ["ml-az", "full-stack-web", "data-science-masters", "ai-fundamentals", "flutter-mobile-dev"],
+    "because_you_watched_python": ["django-web-dev", "flask-web-dev", "python-data-science", "cs-fundamentals"],
+    "trending": ["ai-fundamentals", "react-complete-guide", "blockchain-basics", "flutter-mobile-dev", "system-design"]
+  }
+}
