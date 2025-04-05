@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CourseFlixAI - Netflix Style Learning Platform</title>
-    <!-- Base styles -->
-    <link rel="stylesheet" href="css/globals.css">
-    <link rel="stylesheet" href="css/courseflixai_styles.css">
-    <!-- Icon effects CSS -->
-    <link rel="stylesheet" href="css/icon-effects.css">
-    <style>
-        :root {
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CourseFlixAI - Netflix Style Learning Platform
+  </title>
+  <!-- Base styles -->
+  <link href="globals.css" rel="stylesheet"/>
+  <link href="courseflixai_styles.css" rel="stylesheet"/>
+  <!-- Icon effects CSS -->
+  <link href="icon-effects.css" rel="stylesheet"/>
+  <style>
+   :root {
             --background: #141414;
             --primary-accent: #E50914;
             --secondary-accent: #0071EB;
@@ -326,194 +328,330 @@
                 height: 113px;
             }
         }
-    </style>
-</head>
-<body>
-    <header class="navbar">
-        <div class="nav-left">
-            <a href="#" class="logo">CourseFlixAI</a>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">My Learning</a></li>
-                <li><a href="#">New & Popular</a></li>
-                <li><a href="#">My List</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <div class="search-icon">🔍</div>
-            <div class="profile-icon">👤</div>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero-banner">
-            <div class="hero-content">
-                <h1 class="hero-title">Machine Learning A-Z™: AI, Python & R</h1>
-                <p class="hero-description">Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.</p>
-                <div class="hero-provider">
-                    <div class="provider-logo"></div>
-                    <span>Udemy</span>
-                </div>
-                <div class="rating">
-                    <span class="star">★</span>
-                    <span class="star">★</span>
-                    <span class="star">★</span>
-                    <span class="star">★</span>
-                    <span class="star">★</span>
-                    <span>(4.5, 150,000 ratings)</span>
-                </div>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary">START LEARNING</button>
-                    <button class="btn btn-secondary">+ MY LIST</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="continue-row">
-            <h2 class="section-title">Continue Learning <a href="#" class="see-all">See All</a></h2>
-            <div class="row-content">
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Python for Data Science" class="course-thumbnail">
-                    <div class="progress-bar"></div>
-                    <div class="course-info">
-                        <h3 class="course-title">Python for Data Science</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.8 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="JavaScript Fundamentals" class="course-thumbnail">
-                    <div class="progress-bar"></div>
-                    <div class="course-info">
-                        <h3 class="course-title">JavaScript Fundamentals</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.6 ★</span>
-                            <span class="meta-item">Beginner</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Data Structures & Algorithms" class="course-thumbnail">
-                    <div class="progress-bar"></div>
-                    <div class="course-info">
-                        <h3 class="course-title">Data Structures & Algorithms</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.9 ★</span>
-                            <span class="meta-item">Advanced</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Web Development Bootcamp" class="course-thumbnail">
-                    <div class="progress-bar"></div>
-                    <div class="course-info">
-                        <h3 class="course-title">Web Development Bootcamp</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.7 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="section-title">Popular in Data Science <a href="#" class="see-all">See All</a></h2>
-            <div class="row-content">
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Data Science A-Z" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Data Science A-Z</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.8 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Statistics for Data Analysis" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Statistics for Data Analysis</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.5 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Machine Learning Specialization" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Machine Learning Specialization</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.9 ★</span>
-                            <span class="meta-item">Advanced</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Deep Learning Fundamentals" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Deep Learning Fundamentals</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.7 ★</span>
-                            <span class="meta-item">Advanced</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="section-title">Trending Now <a href="#" class="see-all">See All</a></h2>
-            <div class="row-content">
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="AI for Everyone" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">AI for Everyone</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.8 ★</span>
-                            <span class="meta-item">Beginner</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Blockchain Fundamentals" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Blockchain Fundamentals</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.6 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Cybersecurity Essentials" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Cybersecurity Essentials</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.7 ★</span>
-                            <span class="meta-item">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-card">
-                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=169&q=80" alt="Cloud Computing Masterclass" class="course-thumbnail">
-                    <div class="course-info">
-                        <h3 class="course-title">Cloud Computing Masterclass</h3>
-                        <div class="course-meta">
-                            <span class="meta-item">4.9 ★</span>
-                            <span class="meta-item">Advanced</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Icon functionality JavaScript -->
-    <script src="js/icon-functionality.js"></script>
-</body>
+  </style>
+ </head>
+ <body>
+  <header class="navbar">
+   <div class="nav-left">
+    <a class="logo" href="#">
+     CourseFlixAI
+    </a>
+    <ul class="nav-links">
+     <li>
+      <a href="#">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       Categories
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       My Learning
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       New &amp; Popular
+      </a>
+     </li>
+     <li>
+      <a href="#">
+       My List
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class="nav-right">
+    <div class="search-icon">
+     🔍
+    </div>
+    <div class="profile-icon">
+     👤
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="hero-banner">
+    <div class="hero-content">
+     <h1 class="hero-title">
+      Machine Learning A-Z™: AI, Python &amp; R
+     </h1>
+     <p class="hero-description">
+      Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.
+     </p>
+     <div class="hero-provider">
+      <div class="provider-logo">
+      </div>
+      <span>
+       Udemy
+      </span>
+     </div>
+     <div class="rating">
+      <span class="star">
+       ★
+      </span>
+      <span class="star">
+       ★
+      </span>
+      <span class="star">
+       ★
+      </span>
+      <span class="star">
+       ★
+      </span>
+      <span class="star">
+       ★
+      </span>
+      <span>
+       (4.5, 150,000 ratings)
+      </span>
+     </div>
+     <div class="hero-buttons">
+      <button class="btn btn-primary">
+       START LEARNING
+      </button>
+      <button class="btn btn-secondary">
+       + MY LIST
+      </button>
+     </div>
+    </div>
+   </section>
+   <section class="continue-row">
+    <h2 class="section-title">
+     Continue Learning
+     <a class="see-all" href="#">
+      See All
+     </a>
+    </h2>
+    <div class="row-content">
+     <div class="course-card">
+      <img alt="Python for Data Science" class="course-thumbnail" src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="progress-bar">
+      </div>
+      <div class="course-info">
+       <h3 class="course-title">
+        Python for Data Science
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.8 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="JavaScript Fundamentals" class="course-thumbnail" src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="progress-bar">
+      </div>
+      <div class="course-info">
+       <h3 class="course-title">
+        JavaScript Fundamentals
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.6 ★
+        </span>
+        <span class="meta-item">
+         Beginner
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Data Structures &amp; Algorithms" class="course-thumbnail" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="progress-bar">
+      </div>
+      <div class="course-info">
+       <h3 class="course-title">
+        Data Structures &amp; Algorithms
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.9 ★
+        </span>
+        <span class="meta-item">
+         Advanced
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Web Development Bootcamp" class="course-thumbnail" src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="progress-bar">
+      </div>
+      <div class="course-info">
+       <h3 class="course-title">
+        Web Development Bootcamp
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.7 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="section-title">
+     Popular in Data Science
+     <a class="see-all" href="#">
+      See All
+     </a>
+    </h2>
+    <div class="row-content">
+     <div class="course-card">
+      <img alt="Data Science A-Z" class="course-thumbnail" src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Data Science A-Z
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.8 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Statistics for Data Analysis" class="course-thumbnail" src="https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Statistics for Data Analysis
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.5 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Machine Learning Specialization" class="course-thumbnail" src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Machine Learning Specialization
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.9 ★
+        </span>
+        <span class="meta-item">
+         Advanced
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Deep Learning Fundamentals" class="course-thumbnail" src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Deep Learning Fundamentals
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.7 ★
+        </span>
+        <span class="meta-item">
+         Advanced
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="section-title">
+     Trending Now
+     <a class="see-all" href="#">
+      See All
+     </a>
+    </h2>
+    <div class="row-content">
+     <div class="course-card">
+      <img alt="AI for Everyone" class="course-thumbnail" src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        AI for Everyone
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.8 ★
+        </span>
+        <span class="meta-item">
+         Beginner
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Blockchain Fundamentals" class="course-thumbnail" src="https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Blockchain Fundamentals
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.6 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Cybersecurity Essentials" class="course-thumbnail" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Cybersecurity Essentials
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.7 ★
+        </span>
+        <span class="meta-item">
+         Intermediate
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="course-card">
+      <img alt="Cloud Computing Masterclass" class="course-thumbnail" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;h=169&amp;q=80"/>
+      <div class="course-info">
+       <h3 class="course-title">
+        Cloud Computing Masterclass
+       </h3>
+       <div class="course-meta">
+        <span class="meta-item">
+         4.9 ★
+        </span>
+        <span class="meta-item">
+         Advanced
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Icon functionality JavaScript -->
+  <script src="icon-functionality.js">
+  </script>
+ </body>
 </html>
